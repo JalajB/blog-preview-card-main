@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100;1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100;1,200&display=swap');
+
+
+*{
+    font-size: 16px;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    background-color: white;
+    width:350px;
+    padding: 10px;
+    border-radius: 14px;
+    border: 1px solid;
+    box-shadow: 7px 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+img{
+    margin-top:10px;
+    margin-left:17px;
+    margin-right: 10px;
+    display: flex;
+    width: 315px;
+    height:100%;
+    border-radius: 10px;
+}
+
+
+.learn{
+    font-weight: 900;
+    background-color: hsl(47, 88%, 63%);
+    display: table;
+    padding:4px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-left: 17px;
+}
+
+.pub{
+    display: block;
+    margin-top: 12px;
+    background-color: white;
+    margin-left: 17px;
+}
+
+h1{
+    font-size:1.5rem;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 17px;
+}
+
+h1:hover{
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+    
+}
+
+.para{
+    background-color: white;
+    margin-top: 20px;
+    color:grey;
+    justify-content: left;
+    margin-left: 17px;
+}
+
+.avatar{
+    background-color: white;
+}
+
+.avatar img{
+    margin-top:25px ;
+    background-color: white;
+    max-width: 9%;
+    float:inline-start;
+    /* border: 1px solid; */
+}
+.container2{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin:10px auto;
+    
+}
+
+.name{
+    background-color: white;
+    padding-top: 32px;
+    font-weight: bold;
+}
+
